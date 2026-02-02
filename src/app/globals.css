@@ -1,0 +1,165 @@
+@import "tailwindcss";
+
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+    --purple-lighter: #f0d3fe;
+    --purple-light: #D075FF;
+    --purple-dark: #3D065E;
+    --blue: #1A0266;
+  }
+}
+
+@font-face {
+  font-family: 'TarrgetExpanded';
+  src: url('/fonts/TarrgetExpanded-Z3ZJ.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SquareFont';
+  src: url('/fonts/SquareChunks-25el.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fontCube';
+  src: url('/fonts/BoldTypeRegular-ZWOz.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'megaCube';
+  src: url('/fonts/Megastructure-owdMo.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  background: #FFF1EB;
+  color: #101010;
+  font-family: var(--font-raleway-sans);
+  overflow-x: hidden;
+
+}
+
+.text_black {
+  color: #101010;
+  font-weight: bold;
+}
+
+.title {
+  font-family: 'megaCube';
+  color: #3D065E;
+  /* font-weight: bold; */
+  /* font-size: clamp(48px, 7vw, 108px); */
+}
+
+.logo {
+  font-family: 'megaCube';
+}
+
+/* From Uiverse.io by barisdogansutcu */ 
+button {
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+ }
+ 
+ .default-btn,.hover-btn {
+  background-color: black;
+  color: white;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 20px;
+  border-radius: 50px;
+  text-transform: uppercase;
+  transition: all .3s ease;
+ }
+ 
+ .hover-btn {
+  position: absolute;
+  inset: 0;
+  background-color: black;
+  transform: translate(0%,100%);
+ }
+ 
+ .default-btn span {
+  color: hsl(0, 0%, 100%);
+ }
+ 
+ /* .hover-btn span {
+  color: hsl(50deg 100% 50%);
+ } */
+ 
+ button:hover .default-btn {
+  transform: translate(0%,-100%);
+ }
+ 
+ button:hover .hover-btn {
+  transform: translate(0%,0%);
+ }
+
+ .navLinks{
+  transition-duration: 0.2;
+  height: 100%;
+ }
+
+ .navLinks:hover {
+  background: #000;
+ }
+
+ .container {
+  box-shadow: 0px 4px 10px 0.2px rgb(235, 235, 235);
+ }
+
+
+ .loaderBg {
+  background-color: #3D065E;
+ }
+
+ .subtitle {
+  font-weight: bold;
+  font-size: 28px;
+ }
+
+ .remove_scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  overflow: hidden; /* Prevent scrolling */
+}
+
+/* Chrome, Safari, Opera */
+.remove_scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+
+.shadowed {
+  filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.3));
+}
