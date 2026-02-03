@@ -251,58 +251,52 @@ const Card = () => {
               <div className="card_component px-2.5 py-3.5 rounded-xl overflow-x-hidden bg-white text-xs max-h-[35rem] h-[80vh] shadow-xl ">
                 <div className="flex items-center justify-between gap-4">
                   <div className="px-4 py-1.5 rounded-full flex items-center gap-3">
-                    <CgProfile />
-                    <FaAngleDown />
+
+
                   </div>
                   <div className="px-4 py-1.5 rounded-full container font-bold">
-                    metamask.linea.eth
+
                   </div>
                   <div className="px-4 py-1.5 rounded-full flex items-center gap-3">
-                    <TfiWorld />
-                    <SlOptionsVertical />
+
                   </div>
                 </div>
                 <div className="mt-10 px-3 ">
                   <div className="flex flex-col card_section_inner">
-                    <span className="text-4xl font-bold">$1627.97</span>
-                    <span className="text-red-500 mt-1">$35.67 (-1.37%)</span>
+                    <span className="text-4xl font-bold"></span>
+                    <span className="text-red-500 mt-1"></span>
                   </div>
                   <div className="flex card_section_inner items-center justify-between gap-4 mt-10 text-xs font-bold">
                     <div className="flex items-center text-center flex-col">
                       <div className="p-3 rounded-full bg-blue-400 text-lg">
-                        <PiPlusMinusBold />
+
                       </div>
-                      <div>Buy & Sell</div>
+                      <div></div>
                     </div>
                     <div className="flex items-center text-center flex-col">
                       <div className="p-3 rounded-full bg-blue-400 text-lg">
-                        <IoMdShareAlt />
+
                       </div>
-                      <div>Send</div>
+                      <div></div>
                     </div>
                     <div className="flex items-center text-center flex-col">
                       <div className="p-3 rounded-full bg-blue-400 text-lg">
-                        <AiOutlineSwap />
+
                       </div>
-                      <div>Swap</div>
+                      <div></div>
                     </div>
                     <div className="flex items-center text-center flex-col">
                       <div className="p-3 rounded-full bg-blue-400 text-lg">
-                        <GiStoneBridge />
+
                       </div>
-                      <div>Bridge</div>
+                      <div></div>
                     </div>
                     <div className="flex items-center text-center flex-col">
                       <div className="p-3 rounded-full bg-blue-400 text-lg">
-                        <GiReceiveMoney />
+
                       </div>
-                      <div>Receive</div>
+                      <div></div>
                     </div>
-                  </div>
-                  <div className="card_section_inner flex items-center justify-center  mt-5 w-full font-bold text-center">
-                    <div className="w-full ">Tokens</div>
-                    <div className="w-full ">NFTS</div>
-                    <div className="w-full ">Activity</div>
                   </div>
 
                   <div className="card_section_inner border-b-0.5 mt-2 outline" />
@@ -310,25 +304,20 @@ const Card = () => {
                     <div className="flex card_section_inner items-center justify-between my-6">
                       <div className="flex items-center gap-2 text-lg font-bold">
                         <div>
-                          <FaEthereum />
+
                         </div>
-                        <div className="">Ethereum</div>
+                        <div className=""></div>
                       </div>
                       <div>
-                        <div>$1443.94</div>
-                        <div>0.45ETH</div>
+                        <div></div>
+                        <div></div>
                       </div>
                     </div>
                     <div className="flex card_section_inner items-center justify-between my-6">
                       <div className="flex items-center gap-2 text-lg font-bold">
-                        <div>
-                          <FaEthereum />
-                        </div>
-                        <div>Ethereum</div>
-                      </div>
-                      <div>
-                        <div>$1443.94</div>
-                        <div>0.45ETH</div>
+
+                        <div></div>
+                        <div></div>
                       </div>
                     </div>
                   </div>
