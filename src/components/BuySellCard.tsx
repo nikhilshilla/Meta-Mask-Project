@@ -8,7 +8,6 @@ import { AiOutlineSwap } from "react-icons/ai";
 import { useGSAP } from "@gsap/react";
 import { CardHoverAnimation } from "@/animations/CardHoverAnimation";
 
-
 const BuySellCard = () => {
 
   useGSAP(() => {
