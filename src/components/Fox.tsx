@@ -136,3 +136,8 @@ const Fox: React.FC<FoxProps> = ({
 };
 
 export default Fox;
+export default Fox;
+
+
+
+

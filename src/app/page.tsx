@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       {/* MetaMask Fox - Fixed position, follows scroll, falls at footer */}
-      <Fox width={300} height={300} followMouse={true} slowDrift={true} />
+      <Fox width={200} height={200} followMouse={true} slowDrift={true} />
 
       <div className="px-20 overflow-x-hidden">
         {/* <Logo/> */}
@@ -25,3 +25,11 @@ export default function Home() {
     </>
   );
 }
+
+
+
+
+
+
+
+
