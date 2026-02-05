@@ -11,8 +11,8 @@ export const animateTitle = (element: HTMLDivElement) => {
 
       x: 0,
       stagger: 0.05,
-      duration: 0.6,
-      delay: 4,
+      duration: 0.3,
+      delay: 1,
       ease: "power2.out",
     }
   );
