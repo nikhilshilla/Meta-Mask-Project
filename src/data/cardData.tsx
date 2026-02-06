@@ -200,6 +200,3 @@ export const SLIDES_DATA: SlideData[] = [
         },
     },
 ];
-
-
-
