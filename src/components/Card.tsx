@@ -7,8 +7,8 @@ import Tilt from "react-parallax-tilt";
 import BuySellCard from "./BuySellCard";
 import TradeNFTCard from "./TradeNFTCard";
 import MetamaskMobileCard from "./MetamaskMobileCard";
+import ConnectRight from "./ConnectRight";
 import ConnectDappsCard from "./ConnectDappsCard";
-
 
 
 const Card = () => {
@@ -71,7 +71,7 @@ const Card = () => {
           </Tilt>
 
           <div className="slide_contents flex flex-col gap-3 max-h-[35rem] h-[80vh]">
-            <TradeNFTCard />
+            <ConnectRight/>
           </div>
         </div>
       </section>
