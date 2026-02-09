@@ -10,6 +10,7 @@ import MetamaskMobileCard from "./MetamaskMobileCard";
 import ConnectRight from "./ConnectRight";
 import ConnectDappsCard from "./ConnectDappsCard";
 import Globecard from "./Globecard";
+import Globeleft from "./Globeleft";
 
 const Card = () => {
   useGSAP(() => {
@@ -79,7 +80,7 @@ const Card = () => {
       <section className="card_section relative left-0 w-full remove_scrollbar min-h-[100vh] flex items-center justify-center overflow-x-hidden bg-[#ffa680]">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-3 py-6 px-2 h-full remove_scrollbar overflow-visible pt-20 items-center max-w-5xl">
           <div className="slide_contents flex flex-col gap-3 max-h-[35rem] h-[80vh]">
-            <BuySellCard />
+            <Globeleft/>
           </div>
 
           <Tilt className="z-[999999999] relative flex justify-center">
