@@ -9,7 +9,7 @@ import TradeNFTCard from "./TradeNFTCard";
 import MetamaskMobileCard from "./MetamaskMobileCard";
 import ConnectRight from "./ConnectRight";
 import ConnectDappsCard from "./ConnectDappsCard";
-
+import Globecard from "./Globecard";
 
 const Card = () => {
   useGSAP(() => {
@@ -95,7 +95,7 @@ const Card = () => {
           </Tilt>
 
           <div className="slide_contents flex flex-col gap-3 max-h-[35rem] h-[80vh]">
-            <TradeNFTCard />
+            <Globecard />
           </div>
         </div>
       </section>
