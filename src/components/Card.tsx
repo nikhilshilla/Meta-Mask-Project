@@ -11,6 +11,7 @@ import ConnectRight from "./ConnectRight";
 import ConnectDappsCard from "./ConnectDappsCard";
 import Globecard from "./Globecard";
 import Globeleft from "./Globeleft";
+import Planecard from "./Planecard";
 
 const Card = () => {
   useGSAP(() => {
@@ -66,7 +67,7 @@ const Card = () => {
                 CRYPTO
               </div>
               <div className="card_component rounded-[30px] overflow-hidden bg-transparent max-h-[35rem] h-[80vh] shadow-xl w-full">
-                 <MetamaskMobileCard />
+                 <Planecard/>
               </div>
             </div>
           </Tilt>
@@ -90,7 +91,7 @@ const Card = () => {
                 SECURITY
               </div>
               <div className="card_component rounded-[30px] overflow-hidden bg-transparent max-h-[35rem] h-[80vh] shadow-xl w-full">
-                <MetamaskMobileCard />
+                <Planecard />
               </div>
             </div>
           </Tilt>
