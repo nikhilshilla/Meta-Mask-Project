@@ -70,7 +70,6 @@ const BuySellCard = () => {
     All in one place
   </div>
 
-  {/* BASE CARD – ALWAYS VISIBLE */}
   <div
     className="
       absolute bottom-4 left-1/2 -translate-x-1/2
@@ -113,10 +112,6 @@ const BuySellCard = () => {
     </div>
   </div>
 </div>
-
-
-
-
 
     </>
   );
